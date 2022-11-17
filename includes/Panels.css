@@ -1,0 +1,43 @@
+body{
+    background-color: lightgrey;
+}
+.admin{
+    height: 150px;
+    width: 300px;
+    float:left;
+    border: 3px solid white;
+    background-color: white;
+    position: relative;
+    margin-top: 100px;
+    margin-right: 30px;
+    border-radius: 3px;
+    left: 15px;
+}
+img{
+    height: 100px;
+    width: 70px;
+    float: left;
+}
+.menu{
+    line-height: 50px;
+    float: right;
+    text-align: center;
+    color: #000099;
+    font-family: Serif;
+    font-size: 20px;
+}
+hr{
+    border-top: 2px solid #000099;
+}
+#title {
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    border: none;
+    position: fixed;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    overflow: auto;
+}

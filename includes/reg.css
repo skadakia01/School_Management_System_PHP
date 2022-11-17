@@ -1,0 +1,70 @@
+body{
+    background-image: url("Images/background.jpg")
+}
+h2{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    line-height: 1px;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    padding: 0px;
+    color: white;
+    top: 0;
+    line-height: 0px;
+}
+.dl{
+    text-align: center;
+}
+#register {
+    padding: 60px;
+    height: 450px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 25px;
+    display: inline-block;
+    background-color:#FFFFFF;
+    text-align: center;
+}
+#submitbutton{
+    width: 75px;
+    height: 37.5px;
+    border-radius: 5px;
+    background-color: #00ff00;
+    border-color: #00ff00;
+    color: black;
+    outline: none;
+}
+.f1{
+    border: hidden;
+    border-bottom: 2px solid black;
+    font-family: arial sans-serif;
+    margin: 7px;
+    font-size: 20px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    width: 100%;
+}
+.f1:focus{
+    border-bottom: 2px solid #00ff00;
+}
+.f1::placeholder{
+    font-family: arial sans-serif;
+    font-size: 20px;
+}
+.image{
+    height: 80px;
+    width: 80px;
+}
+a:visited{
+    color: blue;
+}
+#reg{
+    border-bottom: 2px solid #00ff00;
+    width: 100%;
+}

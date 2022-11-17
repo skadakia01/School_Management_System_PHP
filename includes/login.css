@@ -1,0 +1,81 @@
+body{
+    background-image: url("Images/background.jpg")
+}
+h2{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    line-height: 20px;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    padding: 0px;
+    color: white;
+    top: 0;
+    line-height: 0px;
+}
+.title {
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    border: none;
+    position: fixed;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    overflow: auto;
+}
+.dl{
+    text-align: center;
+    margin-top: 200px;
+}
+#login {
+    padding: 50px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 25px;
+    display: inline-block;
+    background-color:#FFFFFF;
+    text-align: center;
+}
+#submitbutton{
+    width: 75px;
+    height: 37.5px;
+    border-radius: 5px;
+    background-color: lightblue;
+    border-color: lightblue;
+    color: black;
+    outline: none;
+}
+.f1{
+    border: hidden;
+    border-bottom: 2px solid black;
+    font-family: arial sans-serif;
+    margin: 5px;
+    font-size: 20px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+.f1:focus{
+    border-bottom: 2px solid lightblue;
+}
+.f1::placeholder{
+    font-family: arial sans-serif;
+    font-size: 20px;
+}
+.image{
+    height: 80px;
+    width: 80px;
+}
+a:visited{
+    color: blue;
+}
+#th{
+    border: hidden;
+    border-bottom: 2px solid lightblue;
+    width: 100%;
+}
